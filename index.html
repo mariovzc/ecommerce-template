@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MAKE IT REAL</title>
+    <title>E-commerce Template, Bootstrap 3</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -29,8 +29,17 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Canasta</a></li>
-            <li><a href="#">Salir</a></li>
+            <li>
+              <a href="#"> 
+                <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                Canasta
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Salir
+              </a>
+            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -132,7 +141,14 @@
                 <div class="caption">
                   <h3>Hipster Ultimate</h3>
                   <p>La camiseta ideal para Hipster</p>
-                  <p><a href="#" class="btn btn-primary" role="button">$229 <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> </a> <a href="#" class="btn btn-default" role="button">Detalles</a></p>
+                  <p>
+                    <a href="#" class="btn btn-primary" role="button">
+                      $229 
+                      <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                    </a>
+                    <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal">
+                      Detalles
+                    </a></p>
                 </div>
               </div>
             </div>
@@ -142,7 +158,15 @@
                 <div class="caption">
                   <h3>One motion Live</h3>
                   <p>Perfecta para salidas roscosas</p>
-                  <p><a href="#" class="btn btn-primary" role="button">$229 <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> </a> <a href="#" class="btn btn-default" role="button">Detalles</a></p>
+                  <p>
+                    <a href="#" class="btn btn-primary" role="button">
+                      $229 
+                      <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 
+                    </a> 
+                    <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal">
+                      Detalles
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -152,7 +176,15 @@
                 <div class="caption">
                   <h3>Underground max</h3>
                   <p>Para los amantes del underground</p>
-                  <p><a href="#" class="btn btn-primary" role="button">$229 <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> </a> <a href="#" class="btn btn-default" role="button">Detalles</a></p>
+                  <p>
+                    <a href="#" class="btn btn-primary" role="button">
+                      $229 
+                      <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 
+                    </a> 
+                    <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal">
+                      Detalles
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -162,7 +194,15 @@
                 <div class="caption">
                   <h3>Hipster Ultimate</h3>
                   <p>La camiseta ideal para Hipster</p>
-                  <p><a href="#" class="btn btn-primary" role="button">$229 <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> </a> <a href="#" class="btn btn-default" role="button">Detalles</a></p>
+                  <p>
+                    <a href="#" class="btn btn-primary" role="button">
+                      $229 
+                      <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                     </a> 
+                    <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal">
+                      Detalles
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>            
@@ -172,7 +212,15 @@
                   <div class="caption">
                     <h3>Hipster Ultimate</h3>
                     <p>La camiseta ideal para Hipster</p>
-                    <p><a href="#" class="btn btn-primary" role="button">$229 <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> </a> <a href="#" class="btn btn-default" role="button">Detalles</a></p>
+                    <p>
+                      <a href="#" class="btn btn-primary" role="button" >
+                        $229 
+                        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 
+                      </a> 
+                      <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target=".my-modal" >
+                        Detalles
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -180,6 +228,91 @@
         </div> 
       </div>
     </div>
+    <div class="modal fade my-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel">Hipster Ultimate</h4>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-info" role="alert">
+                <span class="glyphicon glyphicon-info-sign"></span>     Este producto está agotado.
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-lg-6">
+                  <a href="#" class="thumbnail">
+                    <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="image">
+                  </a>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <p>
+                    Precio: 
+                    <strong>$299</strong>
+                  </p>
+                  <p>
+                    Calificaión:
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                  <p>
+                    <button class="btn btn-warning btn-sm">Hipster</button>
+                    <button class="btn btn-gray btn-sm">Deportiva</button>    
+                  </p>
+                  <a>
+                    <span class="glyphicon glyphicon-heart"></span>
+                    Agregar a los deseos
+                  </a>
+                </div>
+              </div>
+              <div>                  
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active">
+                    <a href="#description" aria-controls="home" role="tab" data-toggle="tab">
+                      Descripción
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#comments" aria-controls="profile" role="tab" data-toggle="tab">
+                      Comentarios
+                    </a>
+                  </li>
+                </ul>              
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="description">
+                    <br>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                       Recusandae officiis, 
+                       pariatur soluta tenetur odio iusto voluptatibus assumenda, 
+                       aspernatur consequatur, autem quas quisquam at ea eum fuga! Excepturi quaerat deleniti est.
+                    </p>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="comments">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        Germán Escobar comentó hace 2 días
+                      </div>
+                      <div class="panel-body">
+                        Esta camiseta está increíble, la quiero!
+                      </div>
+                    </div>
+                    <textarea class="form-control" rows="3" placeholder="Ingresa tu comentario"></textarea>                    
+                  </div>
+                </div>                  
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
